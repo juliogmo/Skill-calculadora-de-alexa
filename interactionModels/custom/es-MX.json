@@ -1,0 +1,161 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "numuno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numdos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "sumaintent",
+          "samples": [
+            "cuanto es {numuno} mas {numdos}",
+            "cual es la suma de {numuno} mas {numdos}",
+            "suma {numuno} mas {numdos}",
+            "Alexa cuanto es {numuno} mas {numdos}",
+            "Alexa cual es la suma de {numuno} mas {numdos}",
+            "Alexa suma {numuno} mas {numdos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numuno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numdos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "restaintent",
+          "samples": [
+            "Alexa cuál es la resta de {numuno} menos {numdos}",
+            "Alexa cuánto es {numuno} menos {numdos}",
+            "resta {numuno} menos {numdos}",
+            "cuál es la resta de {numuno} menos {numdos}",
+            "cuánto es {numuno} menos {numdos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numuno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numdos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "divisionintent",
+          "samples": [
+            "Alexa cuál es la división de {numuno} entre {numdos}",
+            "Alexa cuánto es {numuno} dividido entre {numdos}",
+            "divide {numuno} entre {numdos}",
+            "cuál es la división de {numuno} entre {numdos}",
+            "cuánto es {numuno} dividido entre {numdos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numuno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numdos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "multiplicacionintent",
+          "samples": [
+            "Alexa cuál es la multiplicación de {numuno} por {numdos}",
+            "Alexa cuánto es {numuno} por {numdos}",
+            "multiplica {numuno} por {numdos}",
+            "cuál es la multiplicación de {numuno} por {numdos}",
+            "cuánto es {numuno} por {numdos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numuno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numdos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "potenciacionintent",
+          "samples": [
+            "potencia de {numuno} a la {numdos}",
+            "Alexa cuanto es {numuno} elevado a {numdos}",
+            "Alexa cuánto es {numuno} elevado a la {numdos}",
+            "eleva {numuno} a la {numdos}",
+            "cuánto es {numuno} elevado a la {numdos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numuno",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "raizintent",
+          "samples": [
+            "Alexa raíz  de {numuno}",
+            "Alexa cual es la raíz  de {numuno}",
+            "Alexa cuánto es la raíz  de {numuno}",
+            "raíz  de {numuno}",
+            "cual es la raíz  de {numuno}",
+            "cuanto es la raíz  de {numuno}",
+            "Alexa raiz  de {numuno}",
+            "Alexa cual es la raiz  de {numuno}",
+            "Alexa cuánto es la raiz  de {numuno}",
+            "raiz  de {numuno}",
+            "cual es la raiz  de {numuno}",
+            "cuanto es la raiz  de {numuno}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "calculadora guille"
+    }
+  }
+}
